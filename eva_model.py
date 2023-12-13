@@ -14,7 +14,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from .vit_model import VisionTransformer
+from EVA_CLIP_support_kaggle.vit_model import VisionTransformer
 
 from apex.normalization import FusedLayerNorm
 
